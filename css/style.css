@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ @font-face {
+   font-family: 'Bitter-Semibold';
+   src: url('../static/Bitter-SemiBold.ttf');
+   font-display: block;
+ }
+
+ h1, h2 {
+   font-family: 'Bitter-Semibold';
+ }
+
+ p {
+   font-family: 'Open Sans';
+ }
+ nav {
+    min-height: 10vh;
+ }
+
+ body {
+    min-height: 80vh;
+ }
+
+ footer {
+    min-height: 8vh;
+ }
+
+ img {
+    width: 130px;
+}
+ 
+nav {
+    background-color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+
+ .header {
+    display: flex; 
+    gap: 60px;
+    align-items: center;
+ }
+
+.todo {
+   background-color: #D7DEE5;
+   min-height: 70vh;
+   display: flex; 
+   flex-direction: column; 
+   justify-content: center;
+   width: 100%;
+}
+
+.presentacion {
+    width: 400px; 
+    text-align: justify; 
+    margin-left: 300px;
+ }
+
+ .presentacion p {
+   margin-top: 20px; 
+}
+
+.projects {
+    padding: 30px;
+    margin-left: 285px;
+}
+
+.tinder {
+   display: flex; 
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center; 
+}
+
+.infoTinder {
+    display: flex; 
+   flex-direction: column; 
+   gap: 10px;
+}
+
+.infoTinder p{
+    width: 400px;
+}
+
+.readMoreBtn {
+   all: unset;
+   border: 2px solid black;
+   height: 45px;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Open Sans';
+   margin-top: 10px;
+   border-radius: 10px;
+   color: black;
+   cursor: pointer;
+}
+
+.websiteInfo {
+   margin-top: 80px;
+   display: flex; 
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center; 
+   gap: 30px; 
+}
+
+.websiteTitle {
+   display: flex; 
+   flex-direction: column; 
+   gap: 10px; 
+}
+
+.anxiout {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 80px;
+}
+
+.anxioutTitle {
+   display: flex; 
+   flex-direction: column; 
+   gap: 10px;
+}
+
+.anxioutTitle p{
+    width: 400px;
+}
+
+.websiteTitle p{
+   width: 400px;
+}
+
+.about {
+   background-color: #D7DEE5;
+   min-height: 60vh;
+   display: flex; 
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center; 
+   gap: 170px;
+   margin-top: 30px;
+}
+
+.yo {
+   width: 250px;
+}
+
+.aboutInfo {
+   display: flex; 
+   flex-direction: column; 
+   gap: 15px;
+   width: 350px;
+}
+.aboutInfo h2 {
+   font-size: 30px;
+}
+.aboutInfo p {
+   width: 370px;
+   margin-top: 25px;
+}
+
+.footer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.linkedin {
+   all: unset;
+   cursor: pointer;
+}
+
+.medium {
+   all: unset;
+   cursor: pointer;
+}
+
+.imgMac {
+   width: 350px;  
+}
+
+.newImg {
+   width: 350px;
+}
+
